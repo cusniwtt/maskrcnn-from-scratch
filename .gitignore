@@ -1,3 +1,4 @@
 
 *.pyc
 LIDC-30/**
+.DS_Store
