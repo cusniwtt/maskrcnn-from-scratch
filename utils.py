@@ -451,7 +451,6 @@ def roi_align(batch_of_featuremaps, proposals, size):
     depth=batch_of_featuremaps.shape[-1]
 
     allrois=np.zeros((batchlen,proposal_count,size[0],size[1],depth))
-    #allrois=np.zeros((batchlen,proposal_count,size,depth))
     for image in range(batchlen):
         featuremap=batch_of_featuremaps[image:image+1]
         proposal=proposals[image]
