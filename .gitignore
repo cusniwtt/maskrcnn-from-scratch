@@ -5,3 +5,4 @@ LIDC-30/**
 *.h5
 .DS_Store
 .DS_Store
+dataset/**
